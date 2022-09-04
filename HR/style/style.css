@@ -1,0 +1,73 @@
+.root {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.mulher-1 {
+  background: fixed;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 45%);
+  position: absolute;
+  z-index: -1;
+  top: -360px;
+  background-size: contain;
+  background-position: 40px 80px !important;
+  /* transform: rotate(40deg); */
+}
+.line {
+  background-color: white;
+  height: 10px;
+  width: 150%;
+  z-index: 1;
+  transform: rotate(20.3deg);
+  position: relative;
+  top: 710px;
+  left: -100px;
+}
+body {
+  background-color: #360b5e;
+  overflow-x: hidden;
+}
+.container-body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  color: white;
+  width: 100%;
+  position: relative;
+  top: 400px;
+}
+.container-body h1 {
+  text-align: center;
+  position: relative;
+  font-size: 2rem;
+  border: 1px white solid;
+  width: 600px;
+  left: 700px;
+  top: -360px;
+}
+.container-body h1 span {
+  font-size: 3rem;
+}
+.texto {
+  color: white;
+  width: 50%;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: 500px;
+  margin-left: 3rem;
+}
+
+.garoto {
+  position: absolute;
+  top: 800px;
+  left: 1200px;
+  transform: scaleX(-1);
+}
+.bar {
+  background: fixed;
+  position: relative;
+  clip-path: polygon(0 41%, 100% 41%, 100% 77%, 0 77%);
+  width: 100%;
+  top: 400px;
+}
